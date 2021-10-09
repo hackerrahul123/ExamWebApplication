@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/2.jpg);
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.main ul {
+
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+.main ul li {
+
+    display: inline-block;
+
+}
+
+.main ul li a {
+
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid white;
+    transition-delay: 300;
+    transition: 0.6s ease;
+    background-color: skyblue;
+    border-radius: 15px;
+
+}
+
+.main ul li a:hover {
+
+    background-color: aliceblue;
+    color: black;
+
+}
+
+.head {
+    color: white;
+
+}
+
+.ab {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.ab h1 {
+    color: aliceblue;
+    font-size: 3rem;
+
+}
+
+
+.button {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid white;
+    color: black;
+    background-color: skyblue;
+    box-shadow: 0 3px #999;
+    border-radius: 15px;
+
+
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+
+}
+
+.btn:active {
+
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+
+}
+.social{
+    
+     
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.social a{
+    
+    color:white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+    background-color: darkorange;
+    border-radius: 100%;
+   text-decoration: none;
+}
+.social a:hover{
+      color: black;
+    transform:translate(0,-10px);
+} 
+.login {
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.log {
+
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #191919;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+.log h1 {
+
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.log input[type="text"],
+.log input[type="password"] {
+
+    border: 0;
+    background: none;
+    border: 2px solid skyblue;
+    border-radius: 24px;
+    text-align: center;
+    padding: 14px 10px;
+    color: aliceblue;
+
+}
+
+.log input[type="text"]:focus,
+.log input[type="password"]:focus {
+
+    width: 200px;
+    border-color: green;
+}
+
+.log input[type="button"] {
+    border: 0;
+    background: none;
+    border: 2px solid skyblue;
+    border-radius: 16px;
+    text-align: center;
+    padding: 14px 10px;
+    color: aliceblue;
+
+}
+
+.log input[type="button"]:hover {
+
+    background-color: lightgreen;
+    color: black;
+}
+
+
+.ani {
+    width: 300px;
+    height: 100px;
+    margin: 70px;
+    text-align: center;
+    padding: 25px;
+    font-size: 2em;
+    position: relative;
+    border-radius: 50px;
+    background: red;
+    position: relative;
+    
+    animation-name: example;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        left: 0vh;
+        background-color: yellow;
+    }
+
+    to {
+        left: 150vh;
+    }
+}
